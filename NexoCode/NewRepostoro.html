@@ -22,33 +22,40 @@
         <p>Documentación</p>
 
         <div class="Header-buttons">
-            <img src="Resources/images/Nexo.png" alt="Imagen perfil" class="perfil-image">
+            <a href="perfil.html">
+                <img src="Resources/images/Nexo.png" alt="Imagen perfil" class="perfil-image">
+            </a>
         </div>
     </header>
 
     <!-- HERO -->
-    <section class="hero">
+    <section class="hero-crear">
         <h1>Crear un nuevo repositorio</h1>
         <p>Organiza tu código, colabora con tu equipo y mantén tus proyectos seguros.</p>
     </section>
 
     <!-- FORMULARIO -->
-    <section class="extra">
-        <div class="extra-card">
+    <section class="crear">
+        <div class="crear-card">
             <h2>Información del repositorio</h2>
-
+            <h3>General</h3>
             <label>Nombre del repositorio</label>
             <input type="text" class="input-repo" placeholder="Ej: proyecto-final">
 
             <label>Descripción</label>
             <textarea class="input-repo" rows="4" placeholder="Describe tu proyecto..."></textarea>
-
+            <h3>Configuración</h3>
             <label>Visibilidad</label>
             <select class="input-repo">
                 <option>Público</option>
                 <option>Privado</option>
             </select>
-            
+            <label>
+                <input type="checkbox" name="acepta">
+                Añadir Readme.md
+            </label>
+
+
             <button class="btn-1">Crear repositorio</button>
         </div>
     </section>
