@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial – NexoCode</title>
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="StyleNexcode.css">
+</head>
+
+<body class="fondo-degradado">
+
+    <!-- HEADER igual que en el HTML principal -->
+    <header class="Header">
+        <a href="Nexcode.html">
+            <img src="Resources/images/logoNexcode.png" alt="NexoCode Logo" class="logo-img">
+        </a>
+
+        <p>Características</p>
+        <p>Explorar</p>
+        <p>Documentación</p>
+
+        <div class="Header-buttons">
+            <a href="perfil.html" class="btn-1">Registrarse</a>
+            <a href="perfil.html" class="btn-2">Iniciar Sesión</a>
+        </div>
+    </header>
+<main>
+    <!-- HERO -->
+    <section class="hero2">
+        <h1>Guía para comenzar con NexoCode</h1>
+        <p>Sigue estos pasos para crear tu primer repositorio y subir tu proyecto.</p>
+    </section>
+
+    <!-- CONTENIDO DEL TUTORIAL -->
+    <section class="tutorial">
+        <div class="tutorial-card">
+
+            <h2>1. Abre tu proyecto</h2>
+            <p>Dirígete a la carpeta donde tienes tu proyecto en tu ordenador.</p>
+
+            <h2>2. Abre una terminal</h2>
+            <p>Puedes usar PowerShell, CMD o la terminal integrada de tu editor.</p>
+
+            <h2>3. Entra en la carpeta del proyecto</h2>
+            <p>Usa el siguiente comando:</p>
+            <div class="codigo">
+                cd ruta/de/tu/proyecto
+            </div>
+
+            <h2>4. Inicializa el repositorio con Nexo</h2>
+            <p>Ejecuta:</p>
+            <div class="codigo">
+                nexo init
+            </div>
+
+            <h2>5. Agrega tus archivos</h2>
+            <p>Para agregar todos los archivos del proyecto:</p>
+            <div class="codigo">
+                nexo add .
+            </div>
+
+            <h2>6. Crea tu primer commit</h2>
+            <div class="codigo">
+                nexo commit -m "Primer commit"
+            </div>
+
+            <h2>7. Sube tu proyecto a NexoCode</h2>
+            <p>Conecta tu repositorio local con el remoto:</p>
+            <div class="codigo">
+                nexo remote add origin &lt;URL_DEL_REPOSITORIO&gt;
+            </div>
+
+            <p>Luego súbelo:</p>
+            <div class="codigo">
+                nexo push -u origin main
+            </div>
+
+            <br>
+
+            <a href="NewRepostoro.html" class="btn-1">
+                Crear un nuevo repositorio
+            </a>
+
+        </div>
+    </section>
+</main>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>©2025 NexoCode · Términos · Seguridad · Privacidad · Documentos · Contactos</p>
+    </footer>
+
+</body>
+
+</html>

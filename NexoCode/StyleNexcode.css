@@ -1,0 +1,320 @@
+ /* LOGO */
+ .logo-img {
+     height: 50px;
+     width: auto;
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+
+ /* BODY */
+ body {
+    min-height: 100vh;
+     margin: 0;
+     font-family: Arial, sans-serif;
+     background-color: #f1f3f5;
+     color: #e0e1dd;
+      display: flex;
+  flex-direction: column;
+ }
+
+ /* HEADER */
+ Header {
+     display: flex;
+     align-items: center;
+     background-color: #1b263b;
+     flex-wrap: wrap;
+ }
+
+ .Header p {
+     padding-left: 10px;
+     color: #e0e1dd;
+     text-decoration: none;
+     text-align: left;
+ }
+
+ .Header-buttons {
+     display: flex;
+     gap: 10px;
+     margin-left: auto;
+ }
+
+ main{
+    flex:1;
+ }
+ /* BUTTONS */
+ .btn-1 {
+     background-color: #415a77;
+     color: white;
+     border: none;
+     padding: 10px 18px;
+     border-radius: 5px;
+     cursor: pointer;
+     color: inherit;
+     text-decoration: none;
+ }
+
+ .btn-2 {
+     background-color: transparent;
+     color: #e0e1dd;
+     border: 1px solid #e0e1dd;
+     padding: 10px 18px;
+     border-radius: 5px;
+     cursor: pointer;
+     color: inherit;
+     text-decoration: none;
+ }
+
+ .btn-1:hover {
+     background-color: #527aa3;
+ }
+
+ .btn-2:hover {
+     background-color: #e0e1dd;
+     color: #1b263b;
+ }
+
+ /* HERO */
+ .hero {
+     text-align: center;
+     background-color: #1b2f4a;
+     padding: 60px 20px;
+ }
+
+ .hero h1 {
+     font-size: 2.5rem;
+     margin-bottom: 15px;
+ }
+
+ .hero p {
+     font-size: 1.2rem;
+     margin-bottom: 25px;
+ }
+
+ /* caracteristicas */
+ .caracteristicas {
+     padding: 30px 20px;
+     background-color: #d9d9d9;
+ }
+
+ .caracteristicas-table {
+     color: #0d1b2a;
+     width: 100%;
+     text-align: center;
+ }
+
+ .caracteristicas-table th {
+     width: 33%;
+ }
+
+ .caracteristicas img {
+     height: 50px;
+     width: auto;
+ }
+
+
+ .extra {
+     display: flex;
+     justify-content: center;
+     gap: 40px;
+     padding: 80px 80px;
+     flex-wrap: wrap;
+ }
+
+ .extra-card {
+     background-color: #1b2f4a;
+     padding: 30px;
+     border-radius: 10px;
+     width: 350px;
+     text-align: center;
+ }
+
+ /* FOOTER */
+ .footer {
+     text-align: center;
+     padding: 20px;
+     background-color: #1b263b;
+     color: #e0e1dd;
+ }
+
+
+ /* PERFIL */
+ .perfil-image {
+     height: 40px;
+     width: 40px;
+     border-radius: 50%;
+     background-color: #d9d9d9;
+ }
+
+ .perfil-grid {
+     max-width: 1100px;
+     margin: 40px auto;
+     display: grid;
+     grid-template-columns: 300px 1fr;
+     padding: 0 20px;
+ }
+
+ /* COLUMNA IZQUIERDA */
+ .columnaizquierda {
+     display: grid;
+     justify-items: center;
+     gap: 15px;
+     padding: 20px;
+     border-radius: 10px;
+ }
+
+
+ .columnaizquierda img {
+     height: 120px;
+     border-radius: 50%;
+     background-color: #d9d9d9;
+ }
+
+ .columnaizquierda h2 {
+     color: #1b263b;
+ }
+
+ .columnaizquierda button {
+     background-color: #415a77;
+     color: white;
+     border: none;
+     padding: 4px 18px;
+     border-radius: 5px;
+     cursor: pointer;
+     margin-bottom: 100px;
+ }
+
+ .columnaizquierda button:hover {
+     background-color: #527aa3;
+ }
+
+ /* COLUMMNA DERECHA */
+ .columnaderecha {
+     display: grid;
+     gap: 30px;
+ }
+ .fondo-degradado {
+    background: linear-gradient(180deg, #0d1b2a, #1b263b, #415a77);
+    background-attachment: fixed;
+}
+
+
+ /* SOBRE MI */
+ .gridarea2 {
+     display: grid;
+     background-color: transparent;
+     border: 1px solid #e0e1dd;
+     border-width: 3px;
+     padding: 10px 18px;
+     border-radius: 5px;
+     gap: 10px;
+     color: #1b263b
+ }
+
+ /* REPOSITORIOS */
+ .gridarea3 {
+     display: grid;
+     background-color: transparent;
+     padding: 10px 18px;
+     gap: 10px;
+     color: #1b263b
+ }
+
+ /* CREAR REPOSITORIO */
+
+ .crear {
+     display: flex;
+     justify-content: center;
+     padding: 80px;
+     flex-wrap: wrap;
+ }
+
+ .input-repo {
+     width: 100%;
+     padding: 10px;
+     margin-top: 5px;
+     margin-bottom: 15px;
+     border-radius: 5px;
+     border: 1px solid #d9d9d9;
+     font-size: 1rem;
+     color: #1b263b;
+     resize: none;
+ }
+
+ .crear-card {
+     background-color: #1b2f4a;
+     border-radius: 10px;
+     width: 350px;
+     text-align: center;
+     padding-right: 50px;
+     padding-left: 25px;
+     padding-bottom: 20px;
+ }
+
+ .hero2 {
+     text-align: center;
+     background-color: #1b2f4a;
+     padding: 20px 20px;
+ }
+
+ .codigo{
+    background:#0d1b2a; 
+    color:white; 
+    padding:10px; 
+    border-radius:5px;
+ }
+
+ .tutorial-card{
+     background-color: #1b2f4a;
+     padding: 30px;
+     border-radius: 10px;
+     width: 350px;
+     text-align: center;
+     width: 600px; 
+     text-align: left;
+ }
+ .tutorial{
+    display: flex;
+     justify-content: center;
+     gap: 40px;
+     padding: 80px 80px;
+     flex-wrap: wrap;
+     padding-top: 40px;
+ }
+ /* Móviles */
+ @media (max-width: 768px) {
+
+     /* HERO */
+     .hero {
+         padding: 80px 15px;
+     }
+
+     .hero h1 {
+         font-size: 1.7rem;
+     }
+
+     .hero p {
+         font-size: 0.95rem;
+     }
+
+     .extra-card {
+         width: 100%;
+         max-width: 350px;
+     }
+
+     /* PERFIL */
+     .perfil-grid {
+         grid-template-columns: 1fr;
+         gap: 20px;
+     }
+
+     .columnaizquierda {
+         justify-items: center;
+         text-align: center;
+     }
+
+     .gridarea2,
+     .gridarea3 {
+         width: 100%;
+     }
+
+ }
