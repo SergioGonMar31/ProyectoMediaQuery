@@ -192,10 +192,13 @@
      display: grid;
      gap: 30px;
  }
+
  .fondo-degradado {
     background: linear-gradient(180deg, #0d1b2a, #1b263b, #415a77);
     background-attachment: fixed;
 }
+
+
 
 
  /* SOBRE MI */
