@@ -8,14 +8,17 @@
 
  /* BODY */
  body {
+    min-height: 100vh;
      margin: 0;
      font-family: Arial, sans-serif;
      background-color: #f1f3f5;
      color: #e0e1dd;
+      display: flex;
+  flex-direction: column;
  }
 
  /* HEADER */
- .Header {
+ Header {
      display: flex;
      align-items: center;
      background-color: #1b263b;
@@ -35,6 +38,9 @@
      margin-left: auto;
  }
 
+ main{
+    flex:1;
+ }
  /* BUTTONS */
  .btn-1 {
      background-color: #415a77;
